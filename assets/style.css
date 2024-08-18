@@ -1,0 +1,70 @@
+body {
+  animation: Renkgecis 4.5 linear infinite;
+}
+
+.login-form {
+  margin-top: 15%;
+}
+
+#login-label {
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+  border-style: none;
+  border-radius: 50px;
+}
+
+#password-label {
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+  border-style: none;
+  border-radius: 50px;
+}
+
+#login-button {
+  margin: 10px;
+  padding: 10px;
+  margin-left: 10px;
+  width: 250px;
+  background-color: rgb(1, 32, 60);
+  color: #fff;
+  border-radius: 20px;
+  border-style: none;
+  margin-top: 20px;
+}
+
+.kullanici {
+  background-color: #fff;
+  width: 330px;
+  height: 60px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+}
+
+.sifre {
+  background-color: #fff;
+  width: 330px;
+  height: 60px;
+  border-radius: 20px;
+}
+
+#login-button:hover {
+  transition: 300ms;
+  background-color: rgb(1, 32, 60);
+  box-shadow: rgb(5, 24, 134) 10px 10px 15px;
+  cursor: pointer;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+input:focus {
+  outline: none;
+}
